@@ -1,6 +1,9 @@
 package no.hvl.dat100.tabeller;
 
 public class Tabeller {
+	
+	int x[] = {11, 22, 33, 44, 55, 66};
+	int t = 4;
 
 	// a)
 	public static void skrivUt(int[] tabell) {
@@ -52,10 +55,10 @@ public class Tabeller {
 			}
 			i += 1;
 		}
-		return (-1)
-		
-		
+		return (-1);	
 	}
+	int posijon = Tabeller.posisjonTall(x, t);
+	System.out.print(posisjon);
 
 	// f)
 	public static int[] reverser(int[] tabell) {
